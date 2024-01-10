@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub Favorites</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="module" src="./src/main.js" defer></script>
+  </head>
+  <body>
+    <div id="app">
+      <header>
+        <h1>GitHub Favorites</h1>
+        <div class="search">
+          <label class="sr-only" for="search-username">Usuário do GitHub</label>
+          <input
+            type="text"
+            id="search-username"
+            placeholder="Usuário do GitHub"
+          />
+          <button>&plus;</button>
+        </div>
+      </header>
+      <table>
+        <thead>
+          <tr>
+            <th>Usuário</th>
+            <th>Repositórios</th>
+            <th>Seguidores</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="user">
+              <img
+                src="https://github.com/jp-xaxa.png"
+                alt="Imagem de João Pedro"
+              />
+              <a href="https://github.com/jp-xaxa" target="_blank">
+                <p>João Pedro</p>
+                <span>jp-xaxa</span>
+              </a>
+            </td>
+            <td class="repositories">15</td>
+            <td class="followers">3</td>
+            <td><button class="remove">&times;</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
