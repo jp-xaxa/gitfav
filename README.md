@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - class
 - Import e Export
 - Local Storage
-- Try e Catch
+- Try, Catch e Throw
 - Fetch
 
 ## 💻 Projeto
